@@ -1,4 +1,5 @@
 # manage-household-publish
+※[english version](https://github.com/tcydig/manage-household_publish/blob/main/readme/en/README.md)
 
 ## 前提
 本プロジェクトは私の身内のみで使用しているIOSアプリのビジネスロジック部分をサンプルとして抽出したものです。<br>

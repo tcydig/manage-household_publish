@@ -1,28 +1,30 @@
 # manage-household-publish
 
-## 前提
-本プロジェクトは私の身内のみで使用しているIOSアプリのビジネスロジック部分をサンプルとして抽出したものです。<br>
-似たような構成のアプリを作成したいといった方のお役に立てられればと思い作成致しました。
+## Why I have published this project
+This project is not published on apple store because this ios app if for my family.
+But If There is someone who build app similar to this app, Maybe This project can help them. 
+So I published this project on git.
+alerming:I am not swift developer and python developer. So This source code is not good,Therefore after watching this projectm, i recommend you should make more clean code.
 
 ## デモ
 https://github.com/tcydig/manage-household_publish/assets/53115840/512438fc-ff8b-491d-a3ef-84663aeea4f4
 
 ## アプリ概要
-2人暮らし専用の家計簿管理アプリ。<br>
-アプリの責務としては以下の通り
-- 公共料金やネット、食費、その他等をアプリで一元管理し情報の保存/共有を行う
-- 2人暮らしのためどちらがどれだけ払うのかを明確化
-- 支出のグラフや履歴を残す事で家計改善にもつなげる
+This app is to manage household。<br>
+This app have following dutys
+- to manage utility bills and food expenses and others on this app
+- to get clarification on how mouch you should pay in this month
+- to improve household from showing line graph and history that you spent
 
-## アーキテクチャ
-### フロントトエンド
-言語：Swift <br>
-GUIフレームワーク：SwiftUi<br>
-非同期フレームワーク：Combine<br>
+## architecture
+### Front-End
+Language：Swift <br>
+GUI-Framework：SwiftUi<br>
+asynchronous-Framework：Combine<br>
 
-### バックエンド
-言語：Python<br>
-サーバ：Google Cloud Functions for firebase<br>
+### Back-End
+Language：Python<br>
+API Sever：Google Cloud Functions for firebase<br>
 
-### データベース
+### DataBase
 DB：FireStore
